@@ -63,7 +63,7 @@ export const Home = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3001/medicine")
+    fetch("https://i2e-databasejson.herokuapp.com/medicine")
       .then((response) => response.json())
       .then((res) => {
         setData(res);
@@ -207,16 +207,14 @@ export const Home = () => {
                     }
                   })
 
-                  .filter((z) => {
-                    if (z.title[0] !== alpha) {
-                      console.log(z.title[0])
-                      // setAlpha("")
-                      return z === alpha;
-                    } else {
-                      return "R";
-                      // console.log("DD")
-                    }
-                  })
+                  // .filter((z) => {
+                  //   if(true) {
+                  //     return z.title[0] === alpha
+                  //   } else {
+                  //     return z.title
+                  //   }
+                    
+                  // })
 
                   .map((e) => {
                     return (
