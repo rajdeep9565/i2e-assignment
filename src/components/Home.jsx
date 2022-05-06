@@ -207,14 +207,16 @@ export const Home = () => {
                     }
                   })
 
-                  // .filter((z) => {
-                  //   if(true) {
-                  //     return z.title[0] === alpha
-                  //   } else {
-                  //     return z.title
-                  //   }
+                  .filter((z) => {
+                    if (alpha === "") {
+                      return true
+                    } else {
+                      return z.title[0] === alpha
+                    }
+
+   
                     
-                  // })
+                  })
 
                   .map((e) => {
                     return (
