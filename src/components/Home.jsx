@@ -19,15 +19,15 @@ export const Home = () => {
   const [newData, setNewData] = useState([]);
   const [val, setVal] = useState("");
   const [search, setSearch] = useState("");
-  // const [transfer,setTransfer] = useState("")
+  // const [transferfer,settransferfer] = useState("")
   const [list, setList] = useState([]);
   const [prev, setPrev] = useState({});
-  const [alpha, setAlpha] = useState({});
+  const [alpha, setAlpha] = useState("");
 
   data.sort((a, b) => a.title.localeCompare(b.title));
   // console.log(data);
 
-  const trans = (e) => {
+  const transfer = (e) => {
     // event.preventDefault()
     //  console.log(e);
     const updateList = [];
@@ -207,14 +207,16 @@ export const Home = () => {
                     }
                   })
 
-                  // .filter((z) => {
-                  //   if(z.title[0] !== alpha) {
-                  //     // console.log(z.title)
-                  //     return z.title === data.title
-                  //   } else {
-                  //     return data
-                  //   }
-                  // })
+                  .filter((z) => {
+                    if (z.title[0] !== alpha) {
+                      console.log(z.title[0])
+                      // setAlpha("")
+                      return z === alpha;
+                    } else {
+                      return "R";
+                      // console.log("DD")
+                    }
+                  })
 
                   .map((e) => {
                     return (
@@ -225,7 +227,7 @@ export const Home = () => {
                           <span>
                             <Button
                               onClick={() => {
-                                trans(e);
+                                transfer(e);
                               }}
                               variant="success"
                               className="button_add"
