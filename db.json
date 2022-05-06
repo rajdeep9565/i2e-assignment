@@ -1,0 +1,405 @@
+{
+  "medicine": [
+    {
+      "id": 1,
+      "title": "Benzonate",
+      "category": "SYR"
+    },
+    {
+      "id": 2,
+      "title": "Mucinex",
+      "category": "SYR"
+    },
+    {
+      "id": 3,
+      "title": "Benadryl",
+      "category": "SYR"
+    },
+    {
+      "id": 4,
+      "title": "Delsym",
+      "category": "SYR"
+    },
+    {
+      "id": 5,
+      "title": "Tessalon",
+      "category": "SYR"
+    },
+    {
+      "id": 6,
+      "title": "Guaiatussin AC",
+      "category": "SYR"
+    },
+    {
+      "id": 7,
+      "title": "Hydromet",
+      "category": "SYR"
+    },
+    {
+      "id": 8,
+      "title": "Codeine",
+      "category": "SYR"
+    },
+    {
+      "id": 9,
+      "title": "Mucinex DM",
+      "category": "SYR"
+    },
+    {
+      "id": 10,
+      "title": "Tessalon",
+      "category": "SYR"
+    },
+    {
+      "id": 11,
+      "title": "Hydrocodone",
+      "category": "TAB"
+    },
+    {
+      "id": 12,
+      "title": "Generic Zocor",
+      "category": "TAB"
+    },
+    {
+      "id": 13,
+      "title": "Lisinopril",
+      "category": "TAB"
+    },
+    {
+      "id": 14,
+      "title": "Synthroid",
+      "category": "TAB"
+    },
+    {
+      "id": 15,
+      "title": "Norvasc",
+      "category": "TAB"
+    },
+    {
+      "id": 16,
+      "title": "Prilosec",
+      "category": "TAB"
+    },
+    {
+      "id": 17,
+      "title": "Azithromycin",
+      "category": "TAB"
+    },
+    {
+      "id": 18,
+      "title": "Glucophage",
+      "category": "TAB"
+    },
+    {
+      "id": 19,
+      "title": "Hydrochlorothiazide",
+      "category": "TAB"
+    },
+    {
+      "id": 20,
+      "title": "Molnupiravir",
+      "category": "TAB"
+    },
+    {
+      "id": 21,
+      "title": "Isotroin-20",
+      "category": "RES"
+    },
+    {
+      "id": 22,
+      "title": "Alfacalcidol",
+      "category": "RES"
+    },
+    {
+      "id": 23,
+      "title": "Ampicillin",
+      "category": "RES"
+    },
+    {
+      "id": 24,
+      "title": "Amoxycillin",
+      "category": "RES"
+    },
+    {
+      "id": 25,
+      "title": "Celecoxib",
+      "category": "RES"
+    },
+    {
+      "id": 26,
+      "title": "Doxycycline",
+      "category": "RES"
+    },
+    {
+      "id": 27,
+      "title": "Lansoprazole",
+      "category": "RES"
+    },
+    {
+      "id": 28,
+      "title": "Omeprazole",
+      "category": "RES"
+    },
+    {
+      "id": 29,
+      "title": "Lycotoss",
+      "category": "RES"
+    },
+    {
+      "id": 30,
+      "title": "Benzaday",
+      "category": "RES"
+    },
+    {
+      "id": 31,
+      "title": "Lakme Peach Milk Soft Cream",
+      "category": "CRM"
+    },
+    {
+      "id": 32,
+      "title": "Nivia Soft Light Moisturizer",
+      "category": "CRM"
+    },
+    {
+      "id": 33,
+      "title": "Mamaearth Oil-Free Moisturizer",
+      "category": "CRM"
+    },
+    {
+      "id": 34,
+      "title": "Olay Day Cream",
+      "category": "CRM"
+    },
+    {
+      "id": 35,
+      "title": "Lotus Herbals WhiteGlow Skin",
+      "category": "CRM"
+    },
+    {
+      "id": 36,
+      "title": "POND'S Men Oil Control",
+      "category": "CRM"
+    },
+    {
+      "id": 37,
+      "title": "Himalaya Clear Whitening Day Cream",
+      "category": "CRM"
+    },
+    {
+      "id": 38,
+      "title": "L'Oreal Paris Day Cream",
+      "category": "CRM"
+    },
+    {
+      "id": 39,
+      "title": "Nivea Creme Moizturizer",
+      "category": "CRM"
+    },
+    {
+      "id": 40,
+      "title": "Innisfree Whitening Pore Cream",
+      "category": "CRM"
+    },
+    {
+      "id": 41,
+      "title": "Bepotastine",
+      "category": "DRP"
+    },
+    {
+      "id": 42,
+      "title": "Levocabastine",
+      "category": "DRP"
+    },
+    {
+      "id": 43,
+      "title": "Pseudoephedrine",
+      "category": "DRP"
+    },
+    {
+      "id": 44,
+      "title": "Terfenadine",
+      "category": "DRP"
+    },
+    {
+      "id": 45,
+      "title": "Ciprofloxacin",
+      "category": "DRP"
+    },
+    {
+      "id": 46,
+      "title": "Amoxicillin",
+      "category": "DRP"
+    },
+    {
+      "id": 47,
+      "title": "Clavulanate",
+      "category": "DRP"
+    },
+    {
+      "id": 48,
+      "title": "Azithromycin",
+      "category": "DRP"
+    },
+    {
+      "id": 49,
+      "title": "Cefaclor",
+      "category": "DRP"
+    },
+    {
+      "id": 50,
+      "title": "Clarithromycin",
+      "category": "DRP"
+    },
+    {
+      "id": 51,
+      "title": "Moov",
+      "category": "GEL"
+    },
+    {
+      "id": 52,
+      "title": "Jasmove",
+      "category": "GEL"
+    },
+    {
+      "id": 53,
+      "title": "Hardard",
+      "category": "GEL"
+    },
+    {
+      "id": 54,
+      "title": "Myokalp",
+      "category": "GEL"
+    },
+    {
+      "id": 55,
+      "title": "Diclomet Gel",
+      "category": "GEL"
+    },
+    {
+      "id": 56,
+      "title": "Kneflex",
+      "category": "GEL"
+    },
+    {
+      "id": 57,
+      "title": "De_Heat",
+      "category": "GEL"
+    },
+    {
+      "id": 58,
+      "title": "Orthrex",
+      "category": "GEL"
+    },
+    {
+      "id": 59,
+      "title": "Dr.Morepen",
+      "category": "GEL"
+    },
+    {
+      "id": 60,
+      "title": "Dentone",
+      "category": "GEL"
+    },
+    {
+      "id": 61,
+      "title": "Nivea Smooth Milk Body Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 62,
+      "title": "Vaseline Healthy White Triple Lightening Body Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 63,
+      "title": "Dove Go Fresh Body Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 64,
+      "title": "The Body Shop Cocoa Butter Hand & Body Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 65,
+      "title": "Lakme Peach Milk Moisturizer",
+      "category": "LOT"
+    },
+    {
+      "id": 66,
+      "title": "Lotus Herbals Sheamoist 24-Hour Moisturizer",
+      "category": "LOT"
+    },
+    {
+      "id": 67,
+      "title": "Neutrogena Oil Free Moisturizer",
+      "category": "LOT"
+    },
+    {
+      "id": 68,
+      "title": "Forest Essentials Light Day Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 69,
+      "title": "Clean & Clear Oil Free Moisturizer",
+      "category": "LOT"
+    },
+    {
+      "id": 70,
+      "title": "Plum Wild Cherries & Kiwi Luscious Body Lotion",
+      "category": "LOT"
+    },
+    {
+      "id": 71,
+      "title": "Nivea Musk Talc",
+      "category": "POW"
+    },
+    {
+      "id": 72,
+      "title": "POND’S Dreamflower Fragrant Talcum Powder Pink Lily",
+      "category": "POW"
+    },
+    {
+      "id": 73,
+      "title": "Yardley London Morning Dew Perfumed Talc",
+      "category": "POW"
+    },
+    {
+      "id": 74,
+      "title": "Nivea Pure Talc",
+      "category": "POW"
+    },
+    {
+      "id": 75,
+      "title": "Enchanteur Romantic Perfumed Talc",
+      "category": "POW"
+    },
+    {
+      "id": 76,
+      "title": "Yardley London Gold Deodorizing Talc",
+      "category": "POW"
+    },
+    {
+      "id": 77,
+      "title": "Pond’s Magic Freshness Talc Acacia Honey",
+      "category": "POW"
+    },
+    {
+      "id": 78,
+      "title": "Biotique Bio Basil & Sandalwood Refreshing Body Powder",
+      "category": "POW"
+    },
+    {
+      "id": 79,
+      "title": "Godrej Cinthol Cool Talc",
+      "category": "POW"
+    },
+    {
+      "id": 80,
+      "title": "Navratna Maxx Cool Talc",
+      "category": "POW"
+    }
+   
+  ]
+}

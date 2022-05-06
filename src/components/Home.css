@@ -1,0 +1,115 @@
+.main{
+    display:grid;
+    grid-template-columns: 45% 55%;
+    background-color:rgb(216, 216, 247);
+}
+
+.left{
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 5%;
+    width:100%;
+    align-items: center;
+    /* background-image: url("https://www.who.int/images/default-source/departments/essential-medicines/int-pharmacopeia/717.jpg?sfvrsn=eea7d75a_15"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:600px;
+    max-height: 600px;
+    overflow:scroll;
+    overflow-x: hidden;
+    background-color:rgb(244, 230, 245);
+}
+.right{
+    border: 1px solid green;
+    min-height: 50vh;  
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 5%;
+    /* background-image: url("https://images1.livehindustan.com/uploadimage/library/2020/08/15/16_9/16_9_6/medicine__1597491036.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(244, 230, 245);
+    }
+
+h2{
+    color:green;
+    text-align:center;
+    /* margin-bottom:55px; */
+}
+.categoryButtons{
+    width: 100%;
+    display:flex;
+    gap:1%;
+}
+.categoryButtons > Button {
+margin:5px;
+
+}
+.categoryButtons > Button:hover {
+    background-color:red;
+    }
+.listGroup{
+    width: 350px;
+    margin: 5px 0px 5px 40px;
+    margin-left: 40px;
+    text-align: left;
+    /* margin-bottom: 5px; */
+    overflow: hidden;
+    /* margin-top:10px; */
+    /* color:red; */
+}
+.button_add{
+    float: right;
+    border-radius: 50%;
+    
+}
+#category_span{
+    background-color: rgb(170, 214, 240);
+    /* min-width: 55px; */
+    /* max-width: 55px; */
+    padding: 5px;
+    width:50px;
+    height: 33px;
+    border:none;
+    color:rgb(27, 108, 230);
+    font-weight: 500;
+    margin-right: 15px;
+}
+.span_title{
+    font-family:sans-serif;
+    font-size:14px;
+
+}
+
+
+.form-control{
+    /* margin-left:55px; */
+    width:70%;
+    border-right:none;
+}
+.input-group{
+     /* margin-left:20px; */
+     width:75%;
+     /* background-color:red */
+}
+.map_data{
+    margin-top:10px;
+}
+#filter_btns:hover{
+ background-color:rgb(207, 243, 186);
+}
+
+.left-1{
+    display:grid;
+    grid-template-columns:90% 10%
+}
+.alphabets{margin-left:-150%;
+margin-top:35%}
+.alphabets  button {
+    width:30px;
+    height:30px;
+    border:none;
+    padding:5%;
+    margin:5%
+}
